@@ -18,7 +18,7 @@
 2. 라이브러리 사용이 가능합니다.
 3. 아이템 컴포넌트 하나하나가 무겁다는 가정을 둡시다. FlatList의 아이템을 한번에 너무 많이 랜더링 하지 마세요.
 
-## situation
+## Situation
 
 The name of this application is “Random Sentence”.  
 On the main screen of this app, random sentences are rendered in FlatList.  
@@ -32,7 +32,7 @@ Once the search is complete, automatically scroll to the first matched sentence.
 When you press the “Next” button, you should move to the next location. (Smooth movement with animation)  
 When you press the "Previous" button, you should go to the next location. (Smooth movement with animation)  
 
-## condition
+## Condition
 
 1. All code in the project except FlatList can be modified.
 2. The library can be used.
