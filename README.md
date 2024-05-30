@@ -17,3 +17,23 @@
 1. FlatList를 제외한 프로젝트 내 모든 코드를 수정할 수 있습니다.
 2. 라이브러리 사용이 가능합니다.
 3. 아이템 컴포넌트 하나하나가 무겁다는 가정을 둡시다. FlatList의 아이템을 한번에 너무 많이 랜더링 하지 마세요.
+
+## situation
+
+The name of this application is “Random Sentence”.  
+On the main screen of this app, random sentences are rendered in FlatList.  
+Your task is to add text search functionality to this list.  
+
+## Specification
+
+When you enter a search term in the search box, matching characters are found in the list.  
+Once the search is complete, automatically scroll to the first matched sentence. (Smooth movement with animation)  
+0/0 means {current order}/{number of matches}.  
+When you press the “Next” button, you should move to the next location. (Smooth movement with animation)  
+When you press the "Previous" button, you should go to the next location. (Smooth movement with animation)  
+
+## condition
+
+1. All code in the project except FlatList can be modified.
+2. The library can be used.
+3. Let’s assume that each item component is heavy. Avoid rendering too many FlatList items at once.
